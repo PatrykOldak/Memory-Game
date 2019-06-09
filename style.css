@@ -1,0 +1,75 @@
+body {
+background-color: black;
+font-family: "Arial";
+}
+
+.container {
+display: flex;
+
+}
+
+.container-2 {
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+table.game_table {
+	
+	border-collapse: collapse;
+}
+
+
+.game {
+	background-color: black;
+	display: flex;
+	
+}
+
+h1{
+	background-color: black;
+}
+
+table.game_table, td, th {
+	border: 1px solid white;
+	
+	background-color: black;
+	
+
+}
+table{
+margin-left: 50px;
+
+
+}
+img {
+	width: 110px;
+	height: 110px;
+}
+
+#moves, #score, #info {
+color: white;
+margin-left: 200px;
+margin-top: 50px;
+border: solid 5px white;
+padding: 10px;
+}
+
+
+.hidden {
+	opacity: 0;
+
+}
+
+.selected {
+	opacity: 0.5;
+	
+
+	
+
+}
+
+.scored {
+	opacity: 1.0;
+
+}
